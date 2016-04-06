@@ -26,7 +26,7 @@ echo "william javier trigos guevara" >> contributors.txt
 
 ### en la terminal
 ´´´bash
-mkdir -p /mirror
+sudo mkdir -p /mirror
 ´´´
 
 ### agregar en**/etc/fstab**
@@ -36,4 +36,8 @@ sudo nano /etc/fstab
 sudo reboot
 ´´´
 
+### verificar que podemos ver archivos del master
+df -h
+cd /mirror
+ls -lta
 
